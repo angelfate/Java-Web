@@ -1,0 +1,32 @@
+#main .main_con section  .map_data{
+    /*border: 1px blueviolet solid;*/
+}
+#main .main_con section  .map_data .now_make{ /*现有确诊文字描述*/
+    margin: 50px  auto 10px auto;  /*上隔50px，左居中，下隔10px， 右居中*/
+    color: #737383;
+    text-align: center;
+    /*border: 0px #b2b2b2 solid;*/
+    width: 20%;
+    font-size: 130%; /*文字大小1.5倍*/
+    font-weight: bold;
+}
+#main .main_con section  .map_data button{ /*现有确诊文字按钮格式*/
+     width: 100px;
+     background-color: white;
+     border-radius: 10px;
+ }
+#main .main_con section  .map_data .data_desc{ /*数据来源说明*/
+    text-align: center;
+    color: #b2b2b2;
+    font-size: 90%;
+}
+#main .main_con section  .map_data button:hover{
+    cursor: pointer;
+    background-color: #b2b2b2;
+}
+#main .main_con section .map_data #virus-map{ /*地图格式*/
+    width: 100%;
+    height: 700px;
+    /*border: 1px red solid;*/
+    margin-top: 20px;
+}
